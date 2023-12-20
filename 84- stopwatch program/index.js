@@ -54,6 +54,4 @@ function updateTime() {
   function pad(unit) {
     return ("0" + unit).length > 2 ? unit : "0" + unit;
   }
-  console.log(startTime);
-  console.log(elapsedTime);
 }
